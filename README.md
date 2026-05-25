@@ -1,4 +1,4 @@
-# Commute Scout
+# Commute Calculator
 
 Periodically samples traffic-aware drive times between a set of origin/destination pairs using the Google Maps Distance Matrix API and stores the results in a local SQLite database. Designed to accumulate data over weeks for offline analysis.
 
