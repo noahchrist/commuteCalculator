@@ -1,0 +1,15 @@
+origins:
+  - label: Wicker Park
+    address: "Milwaukee Ave & North Ave, Chicago, IL"
+  - label: Lincoln Park
+    address: "Clark St & Fullerton Ave, Chicago, IL"
+  - label: Logan Square
+    address: "Milwaukee Ave & Logan Blvd, Chicago, IL"
+  - label: Ukrainian Village
+    address: "Chicago Ave & Western Ave, Chicago, IL"
+  - label: Bucktown
+    address: "Damen Ave & North Ave, Chicago, IL"
+
+destinations:
+  - label: Oak Brook Office
+    address: "2 Lincoln Center, Oakbrook Terrace, IL"

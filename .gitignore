@@ -1,2 +1,4 @@
 .env
-responses.db
+.venv/
+data/responses.db
+data/commute_scout.log
