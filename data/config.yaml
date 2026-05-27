@@ -1,14 +1,24 @@
 origins:
+  - label: West Loop
+    address: "Randolph St & Morgan St, Chicago, IL"
+  - label: River West
+    address: "Chicago Ave & Milwaukee Ave, Chicago, IL"
+  - label: West Town
+    address: "Chicago Ave & Ashland Ave, Chicago, IL"
   - label: Wicker Park
-    address: "Milwaukee Ave & North Ave, Chicago, IL"
-  - label: Lincoln Park
-    address: "Clark St & Fullerton Ave, Chicago, IL"
-  - label: Logan Square
-    address: "Milwaukee Ave & Logan Blvd, Chicago, IL"
-  - label: Ukrainian Village
-    address: "Chicago Ave & Western Ave, Chicago, IL"
+    address: "Damen Ave & Division St, Chicago, IL"
   - label: Bucktown
-    address: "Damen Ave & North Ave, Chicago, IL"
+    address: "Armitage Ave & Damen Ave, Chicago, IL"
+  - label: North Center
+    address: "Damen Ave & Montrose Ave, Chicago, IL"
+  - label: Uptown
+    address: "Broadway & Argyle St, Chicago, IL"
+  - label: Old Town
+    address: "North Ave & Wells St, Chicago, IL"
+  - label: Oak Park
+    address: "Central Ave & Harlem Ave, Oak Park, IL"
+  - label: Roscoe Village
+    address: "Hoyne Ave & Roscoe St, Chicago, IL"
 
 destinations:
   - label: Oak Brook Office
