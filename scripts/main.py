@@ -4,6 +4,7 @@ import logging
 import os
 import sqlite3
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import googlemaps
 import yaml
@@ -43,13 +44,15 @@ def init_db(conn):
 
 
 def sample_pair(gmaps, origin, destination, direction, conn):
-    now = datetime.now(timezone.utc)
+    cst = ZoneInfo("America/Chicago")
+    now_utc = datetime.now(timezone.utc)
+    now_cst = now_utc.astimezone(cst)
     try:
         result = gmaps.distance_matrix(
             origins=[origin["address"]],
             destinations=[destination["address"]],
             mode="driving",
-            departure_time=now,
+            departure_time=now_utc,
             traffic_model="best_guess",
         )
         element = result["rows"][0]["elements"][0]
@@ -70,12 +73,12 @@ def sample_pair(gmaps, origin, destination, direction, conn):
             (
                 origin["label"], origin["address"],
                 destination["label"], destination["address"],
-                now.isoformat(),
+                now_cst.isoformat(),
                 duration_seconds,
                 distance_meters,
                 direction,
                 json.dumps(result),
-                datetime.now(timezone.utc).isoformat(),
+                datetime.now(cst).isoformat(),
             ),
         )
         conn.commit()
