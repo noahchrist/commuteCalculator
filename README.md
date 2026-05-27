@@ -14,8 +14,7 @@ A cron job invokes the script once per sample. The script reads `data/config.yam
 pip3 install -r requirements.txt
 ```
 
-Add your GOOGLE_MAPS_API_KEY to .env
-Update `data/config.yaml` with your origins and destinations.
+Add your GOOGLE_MAPS_API_KEY to .env and update `data/config.yaml` with your origins and destinations.
 
 ## Usage
 
