@@ -9,16 +9,10 @@ origins:
     address: "Damen Ave & Division St, Chicago, IL"
   - label: Bucktown
     address: "Armitage Ave & Damen Ave, Chicago, IL"
-  - label: North Center
-    address: "Damen Ave & Montrose Ave, Chicago, IL"
-  - label: Uptown
-    address: "Broadway & Argyle St, Chicago, IL"
-  - label: Old Town
-    address: "North Ave & Wells St, Chicago, IL"
+  - label: Streeterville
+    address: "N Columbus Dr & E Grand St, Chicago, IL"
   - label: Oak Park
     address: "Central Ave & Harlem Ave, Oak Park, IL"
-  - label: Roscoe Village
-    address: "Hoyne Ave & Roscoe St, Chicago, IL"
 
 destinations:
   - label: Oak Brook Office
