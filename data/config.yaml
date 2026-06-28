@@ -13,6 +13,8 @@ origins:
     address: "N Columbus Dr & E Grand St, Chicago, IL"
   - label: Oak Park
     address: "Central Ave & Harlem Ave, Oak Park, IL"
+  - label: South Loop
+    address: "S Michigan Ave & E Roosevelt Rd, Chicago, IL"
 
 destinations:
   - label: Oak Brook Office
